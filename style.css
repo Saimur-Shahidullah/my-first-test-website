@@ -51,10 +51,25 @@ background-repeat: no-repeat;
     margin-bottom: 15px;
 }
 .btn{
-    padding: 10px 20px;
-    background-color: red;
+    padding:10px 20px;
+    background-color:red;
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse;
+    padding: 10px;
+}
+.about-info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-us{
+
+}
+.about-title{
+
 }
