@@ -54,8 +54,7 @@ background-repeat: no-repeat;
     padding:10px 20px;
     background-color:red;
     color: white;
-    border: none;
-    
+    border: none;    
 }
 .about-container{
     display: flex;
@@ -67,9 +66,35 @@ background-repeat: no-repeat;
 .about-info{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.about-us{
-
-}
 .about-title{
-
+    text-align: center;
+    padding-top:20px;
+}
+.box{
+    width: 230px;
+    height: 320px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 50px;
+    align-items: center;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
